@@ -1,0 +1,7 @@
+#!/bin/bash
+javac *.java
+java PizzaSolver a_example.in > a_result.txt
+java PizzaSolver b_small.in > b_result.txt
+java PizzaSolver c_medium.in > c_result.txt
+java PizzaSolver d_big.in > d_result.txt
+rm *.class

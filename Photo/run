@@ -1,0 +1,8 @@
+#!/bin/bash
+javac *.java
+java Solver a_example.txt > a_result.txt
+java Solver b_lovely_landscapes.txt > b_result.txt
+java Solver c_memorable_moments.txt > c_result.txt
+java Solver d_pet_pictures.txt > d_result.txt
+java Solver e_shiny_selfies.txt > e_result.txt
+rm *.class
